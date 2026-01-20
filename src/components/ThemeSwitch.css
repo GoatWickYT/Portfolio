@@ -1,0 +1,26 @@
+.ThemeSwitch {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--primary);
+    border-radius: 50%;
+    font-size: 1.5em;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    user-select: none;
+
+    cursor: pointer;
+    color: var(--text);
+    z-index: 4;
+}
+
+.ThemeSwitch:hover {
+    background-color: var(--primary-hover);
+    transform: scale(1.1);
+}
