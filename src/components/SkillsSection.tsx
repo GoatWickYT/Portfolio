@@ -1,10 +1,10 @@
-import { useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
 import './SkillsSection.css';
-import { useTranslation } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
 
 const SkillsSection: React.FC = () => {
-    const navigate = useNavigate();
-    const { t } = useTranslation();
+    //const navigate = useNavigate();
+    //const { t } = useTranslation();
 
     return (
         <section className="SkillsSection">
