@@ -1,9 +1,21 @@
 {
+    "lang-title": "Switch to hungarian",
+    "theme-title": "Toggle theme",
     "hero-intro": "Hi, I'm Attila Wittner",
     "hero-sub1": "I'm an IT student building interactive web apps and experimenting with UI/UX design as well as backend setups.",
     "hero-sub2": "I specialize in front- and back-end development, I enjoy turning ideas into engaging digital experiences I also enjoy making games!",
     "hero-image": "Attila Wittner, IT student",
     "hero-more": "Learn more about me",
-    "lang-title": "Switch to hungarian",
-    "theme-title": "Toggle theme"
+    "project-title-featured": "Featured Project",
+    "project-second-title": "Other Projects",
+    "project-title-realm": "REALM - TTRPG (In active development)",
+    "project-description-realm": "REALM is a TTRPG (tabletop role-playing game) inspired by Dungeons & Dragons. The project is under active development and is structured as logically separated services within a monorepo using TypeScript, Node.js, and Phaser.js.\n\nI designed and implemented the networking layer from scratch using WebSockets. The game is structured around classic fantasy races and classes, with an emphasis on teamwork and cooperative gameplay.",
+    "project-more-best": "More about REALM",
+    "project-title-other": " Other Projects",
+    "project-title-dgd": "Deal Gone Dark",
+    "project-description-dgd": "Deal Gone Dark is a 2D stealth action game where players take on the role of a robber infiltrating a casino. The game features pre-generated levels, full 2-5 player multiplayer support. Developed using TypeScript and Phaser.js with Colyseus as the server, the project focuses on creating an enjoyable experience with semi-dynamic lighting and sound design.",
+    "project-more-dgd": "More about Deal Gone Dark",
+    "project-title-agentq": "AgentQ",
+    "project-description-agentq": "AgentQ was based on popular quiz websites like Redmenta and Quizlet. It allows users to create, share, and play quizzes in a competitive multiplayer environment. Built with TypeScript, React, and Node.js, the project emphasizes user engagement through an agent style quiz taker website",
+    "project-more-agentq": "More about AgentQ"
 }

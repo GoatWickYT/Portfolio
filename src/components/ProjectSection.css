@@ -1,0 +1,98 @@
+.ProjectSection {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.ProjectSection .Content {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ProjectSection .Info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 0 30px 30px 0;
+    background-color: var(--bg-alt);
+    box-shadow: -5px -5px 20px var(--border) inset;
+}
+
+.ProjectSection img {
+    width: 320px;
+    border: var(--accent) 2px solid;
+    border-radius: 110px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ProjectSection .Info section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    text-align: left;
+    border-left: gray 5px solid;
+}
+
+.ProjectSection .Other {
+    width: 90%;
+}
+
+.ProjectSection .Other div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ProjectSection .Info h1 {
+    display: block;
+    border-bottom: var(--accent) 2px solid;
+    width: 60%;
+    text-align: center;
+}
+
+.ProjectSection .Info p * {
+    font-size: larger;
+}
+
+/* ------ TABLET ------ */
+@media (max-width: 1024px) {
+    .ProjectSection .Content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ProjectSection .Info {
+        align-self: center;
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    .ProjectSection .Other {
+        width: 100%;
+    }
+
+    .ProjectSection .Other div {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+/* ------ MOBILE ------ */
+@media (max-width: 768px) {
+    .ProjectSection .Info {
+        padding: 8px;
+    }
+    .ProjectSection .Info section {
+        width: 100%;
+    }
+}

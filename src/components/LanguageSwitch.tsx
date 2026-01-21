@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import './LanguageSwitch.css';
 import { useEffect } from 'react';
 
 const LanguageSwitch: React.FC = () => {
@@ -18,10 +17,11 @@ const LanguageSwitch: React.FC = () => {
 
     return (
         <main
-            className="LanguageSwitch"
+            className="LanguageSwitch Switch"
             onClick={() => toggleLanguage()}
             aria-label={t('lang-title')}
             title={t('lang-title')}
+            style={{ bottom: '20px' }}
         >
             {i18n.language !== 'en' ? 'HU' : 'EN'}
         </main>

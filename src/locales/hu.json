@@ -1,9 +1,21 @@
 {
+    "lang-title": "Angolra váltás",
+    "theme-title": "Téma váltása",
     "hero-intro": "Üdv, Wittner Attila vagyok",
     "hero-sub1": "IT hallgató vagyok, aki interaktív webalkalmazásokat fejleszt, valamint UI/UX dizájnnal és backend rendszerekkel kísérletezik.",
     "hero-sub2": "Front- és backend fejlesztésre specializálódom, szeretek ötleteket vonzó digitális élményekké alakítani, és időnként játékokat is készítek.",
     "hero-image": "Wittner Attila, IT hallgató",
     "hero-more": "Több információ rólam",
-    "lang-title": "Angolra váltás",
-    "theme-title": "Téma váltása"
+    "project-title-featured": "Kiemelt Projektem",
+    "project-second-title": "Egyébb Projektek",
+    "project-title-realm": "REALM - TTRPG (Aktív fejlesztés alatt)",
+    "project-description-realm": "A REALM egy TTRPG (asztali szerepjáték), amelyet a Dungeons & Dragons ihletett. A projekt jelenleg fejlesztés alatt áll, strukturálisan logikailag elkülönített szolgáltatásokként egy monorepo keretein belüli épül TypeScript, Node.js és Phaser.js használatával.\n\nA hálózati réteget teljesen nulláról terveztem és valósítottam meg WebSocketek segítségével. A játék klasszikus fantasy fajok és osztályok köré épül, hangsúlyt fektetve a csapatmunkára és az együttműködő játékmenetre.",
+    "project-more-best": "Több a REALM-ről",
+    "project-title-other": " Egyébb Projektek",
+    "project-title-dgd": "Deal Gone Dark",
+    "project-description-dgd": "A Deal Gone Dark egy 2D-s lopakodós akciójáték, ahol a játékosok egy kaszinót betörő rabló szerepét veszik át. A játék előre generált pályákat és teljes 2-5 játékos multiplayer támogatást kínál. A TypeScript és Phaser.js használatával, Colyseus szerverrel fejlesztett projekt a félig dinamikus világítással és hangtervezéssel nyújt élvezetes élményt.",
+    "project-more-dgd": "Több a Deal Gone Dark-ról",
+    "project-title-agentq": "K-Ügynök",
+    "project-description-agentq": "Az AgentQ népszerű kvíz weboldalak, mint a Redmenta és a Quizlet alapján készült. Lehetővé teszi a felhasználók számára, hogy kvízeket hozzanak létre, osszanak meg és játsszanak egy versenyképes multiplayer környezetben. A TypeScript, React és Node.js használatával épített projekt a felhasználói elkötelezettséget helyezi előtérbe egy ügynök stílusú kvíz kitöltő weboldalon.",
+    "project-more-agentq": "Több az AgentQ-ról"
 }

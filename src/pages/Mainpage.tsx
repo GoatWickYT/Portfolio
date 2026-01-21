@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import './Mainpage.css';
+import ProjectSection from '../components/ProjectSection';
+import SkillsSection from '../components/SkillsSection';
 
 const Mainpage: React.FC = () => {
     const navigate = useNavigate();
@@ -16,8 +18,8 @@ const Mainpage: React.FC = () => {
     return (
         <main className="Mainpage">
             <HeroSection />
-            <section className="Project"></section>
-            <section className="Skill"></section>
+            <ProjectSection />
+            <SkillsSection />
         </main>
     );
 };

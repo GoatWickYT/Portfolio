@@ -1,4 +1,4 @@
-.HeroSection {
+.SkillSection {
     display: flex;
     width: min(80vw, 1100px);
     padding: 40px;
@@ -9,13 +9,13 @@
     margin: 0 auto;
 }
 
-.HeroSection .Content {
+.SkillSection .Content {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.HeroSection img {
+.SkillSection img {
     max-width: 320px;
     border: var(--accent) 2px solid;
     border-radius: 100px 0;
@@ -23,22 +23,20 @@
     padding: 20px;
 }
 
-.HeroSection .Info {
+.SkillSection .Info {
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.HeroSection .Info h1 {
-    display: block;
+.SkillSection .Info h1 {
     border-bottom: var(--accent) 2px solid;
     width: 70%;
     text-align: center;
 }
 
-.HeroSection .Info p {
+.SkillSection .Info p {
     margin: 20px;
     text-indent: 50px;
     font-size: larger;
@@ -46,12 +44,12 @@
 
 /* ------ TABLET ------ */
 @media (max-width: 1024px) {
-    .HeroSection {
-        width: 90vw;
-        padding: 16px;
+    .SkillSection {
+        width: 80vw;
+        padding: 32px;
     }
 
-    .HeroSection img {
+    .SkillSection img {
         max-width: 280px;
         padding: 16px;
     }
@@ -59,28 +57,24 @@
 
 /* ------ MOBILE ------ */
 @media (max-width: 768px) {
-    .HeroSection .Info h1 {
-        display: block;
-        width: 100%;
-    }
-
-    .HeroSection {
-        padding: 8px;
+    .SkillSection {
+        padding: 24px;
         border-radius: 20px;
     }
 
-    .HeroSection .Content {
+    .SkillSection .Content {
         flex-direction: column;
         text-align: center;
     }
 
-    .HeroSection img {
+    .SkillSection img {
         max-width: 260px;
         margin: 16px auto;
     }
 
-    .HeroSection .Info p {
+    .SkillSection .Info p {
         text-indent: 0;
-        margin: 8px 0;
+        margin: 16px 0;
+        font-size: 1rem;
     }
 }
