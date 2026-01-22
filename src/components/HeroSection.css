@@ -1,6 +1,6 @@
 .HeroSection {
     display: flex;
-    width: min(80vw, 1100px);
+    width: min(80%, 1100px);
     padding: 40px;
     border-radius: 30px;
     background-color: var(--bg-alt);
@@ -55,7 +55,7 @@
     }
 
     .HeroSection {
-        width: 90vw;
+        width: 90%;
         padding: 16px;
     }
 
@@ -73,6 +73,7 @@
     }
 
     .HeroSection {
+        width: 100%;
         padding: 8px;
         border-radius: 20px;
     }

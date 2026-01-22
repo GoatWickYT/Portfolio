@@ -1,9 +1,9 @@
 .Mainpage .HeroSection {
-    margin-top: 20vh;
+    margin-top: 20%;
 }
 
 @media (max-width: 1024px) {
     .Mainpage .HeroSection {
-        margin-top: 5vh;
+        margin-top: 5%;
     }
 }

@@ -20,5 +20,9 @@
     "project-more-agentq": "More about AgentQ",
     "tech-title": "Technologies",
     "tech-description": "Here are some of the technologies and languages I have experience with:",
-    "tech-more": "More information about the technologies"
+    "tech-more": "More information about the technologies",
+    "footer-main": "Main Page",
+    "footer-about": "About Me",
+    "footer-projects": "Projects",
+    "footer-techs": "Technologies"
 }

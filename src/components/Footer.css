@@ -1,0 +1,68 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--bg-alt);
+}
+
+.Footer ul {
+    list-style-type: none;
+    padding: 0;
+    border-right: 2px solid var(--accent);
+}
+
+.Footer .Links li a {
+    justify-content: flex-end;
+}
+
+.Footer ul li a {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px;
+    padding-right: 10px;
+    background-color: var(--bg-btn);
+    border-radius: 10px 0 0 10px;
+}
+
+.Footer ul img:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.Footer ul img {
+    background-color: var(--bg-btn-hover);
+    border-radius: 20px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.Footer ul li a:hover {
+    transform: scale(1.1) translateX(-6.5px);
+    background-color: var(--bg-btn-hover);
+    cursor: pointer;
+}
+
+.Footer ul li a:hover img {
+    background-color: var(--bg-btn);
+}
+
+.Footer a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .Footer {
+        flex-direction: column;
+    }
+}

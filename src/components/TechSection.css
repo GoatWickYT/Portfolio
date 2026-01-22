@@ -1,6 +1,6 @@
 .TechSection {
     display: flex;
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     border-radius: 30px;
     flex-direction: column;
@@ -77,7 +77,7 @@
 /* ------ MOBILE ------ */
 @media (max-width: 768px) {
     .TechSection {
-        width: 100vw;
+        width: 100%;
     }
 
     .TechSection .Techs {
