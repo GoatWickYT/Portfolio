@@ -46,6 +46,14 @@
 
 /* ------ TABLET ------ */
 @media (max-width: 1024px) {
+    .HeroSection .Info h1 {
+        width: 90%;
+    }
+
+    .HeroSection .Info p {
+        font-size: large;
+    }
+
     .HeroSection {
         width: 90vw;
         padding: 16px;

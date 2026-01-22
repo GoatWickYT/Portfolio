@@ -17,5 +17,8 @@
     "project-more-dgd": "More about Deal Gone Dark",
     "project-title-agentq": "AgentQ",
     "project-description-agentq": "AgentQ was based on popular quiz websites like Redmenta and Quizlet. It allows users to create, share, and play quizzes in a competitive multiplayer environment. Built with TypeScript, React, and Node.js, the project emphasizes user engagement through an agent style quiz taker website",
-    "project-more-agentq": "More about AgentQ"
+    "project-more-agentq": "More about AgentQ",
+    "tech-title": "Technologies",
+    "tech-description": "Here are some of the technologies and languages I have experience with:",
+    "tech-more": "More information about the technologies"
 }

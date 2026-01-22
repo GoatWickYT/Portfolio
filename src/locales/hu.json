@@ -17,5 +17,8 @@
     "project-more-dgd": "Több a Deal Gone Dark-ról",
     "project-title-agentq": "K-Ügynök",
     "project-description-agentq": "Az AgentQ népszerű kvíz weboldalak, mint a Redmenta és a Quizlet alapján készült. Lehetővé teszi a felhasználók számára, hogy kvízeket hozzanak létre, osszanak meg és játsszanak egy versenyképes multiplayer környezetben. A TypeScript, React és Node.js használatával épített projekt a felhasználói elkötelezettséget helyezi előtérbe egy ügynök stílusú kvíz kitöltő weboldalon.",
-    "project-more-agentq": "Több az AgentQ-ról"
+    "project-more-agentq": "Több az AgentQ-ról",
+    "tech-title": "Teknológiák",
+    "tech-description": "Itt van néhány olyan technológia és nyelv, amivel tapasztalatom van:",
+    "tech-more": "Több információ a technológiákról"
 }

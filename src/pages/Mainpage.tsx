@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import './Mainpage.css';
 import ProjectSection from '../components/ProjectSection';
-import SkillsSection from '../components/SkillsSection';
+import TechSection from '../components/TechSection';
 
 const Mainpage: React.FC = () => {
     const navigate = useNavigate();
@@ -19,7 +19,7 @@ const Mainpage: React.FC = () => {
         <main className="Mainpage">
             <HeroSection />
             <ProjectSection />
-            <SkillsSection />
+            <TechSection />
         </main>
     );
 };

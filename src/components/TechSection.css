@@ -1,0 +1,91 @@
+.TechSection {
+    display: flex;
+    width: 100vw;
+    padding: 10px;
+    border-radius: 30px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.TechSection .Content {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TechSection img {
+    max-width: 320px;
+    border: var(--accent) 2px solid;
+    border-radius: 100px 0;
+    margin: 20px;
+    padding: 20px;
+}
+
+.TechSection .Tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TechSection .Tech h1 {
+    border-bottom: var(--accent) 2px solid;
+    width: 70%;
+    text-align: center;
+}
+
+.TechSection .Tech p {
+    margin: 20px;
+    font-size: larger;
+}
+
+.TechSection .Techs {
+    width: 45%;
+    padding: 0;
+}
+.TechSection .Techs img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 5px;
+    border: 5px solid var(--accent);
+    padding: 5px;
+    background-color: #c4e9ff;
+}
+
+/* ------ TABLET ------ */
+@media (max-width: 1024px) {
+    .TechSection .Tech h1 {
+        width: 90%;
+    }
+
+    .TechSection .Tech p {
+        font-size: large;
+    }
+
+    .TechSection .Techs {
+        width: 90%;
+    }
+
+    .TechSection .Techs img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* ------ MOBILE ------ */
+@media (max-width: 768px) {
+    .TechSection {
+        width: 100vw;
+    }
+
+    .TechSection .Techs {
+        width: 100%;
+    }
+
+    .TechSection .Techs img {
+        width: 100px;
+        height: 100px;
+    }
+}

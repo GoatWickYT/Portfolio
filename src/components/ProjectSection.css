@@ -66,6 +66,13 @@
 
 /* ------ TABLET ------ */
 @media (max-width: 1024px) {
+    .ProjectSection .Info h1 {
+        width: 90%;
+    }
+    .ProjectSection .Info p * {
+        font-size: large;
+    }
+
     .ProjectSection .Content {
         flex-wrap: wrap;
         justify-content: center;
@@ -85,6 +92,12 @@
         justify-content: center;
         flex-direction: column;
     }
+
+    .ProjectSection img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50px;
+    }
 }
 
 /* ------ MOBILE ------ */
@@ -92,7 +105,14 @@
     .ProjectSection .Info {
         padding: 8px;
     }
+
     .ProjectSection .Info section {
         width: 100%;
+    }
+
+    .ProjectSection img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
     }
 }
