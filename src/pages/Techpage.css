@@ -1,2 +1,76 @@
 .Techpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* ---------- INTRO ---------- */
+.Techpage .Intro h1 {
+    text-align: center;
+}
+.Techpage .Intro {
+    width: min(90%, 900px);
+    padding: 2rem 2rem 1.5rem 2rem;
+    background-color: var(--bg-alt);
+    border-radius: 0 0 16px 16px;
+    box-shadow: inset -3px -3px 12px var(--border);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Techpage .Intro h2 {
+    font-size: 1.35rem;
+    margin: 0;
+    color: var(--primary);
+}
+
+.Techpage .Intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+/* ---------- TOOL DESC ---------- */
+.Techpage .ToolDesc {
+    width: min(100%, 1200px);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 1024px) {
+    .Techpage .Intro {
+        width: 90%;
+        padding: 1.5rem;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .Techpage .Intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .Techpage .Intro p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Techpage .Intro {
+        width: 95%;
+        padding: 1rem 1rem 0.8rem 1rem;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .Techpage .Intro h2 {
+        font-size: 1.6rem;
+    }
+
+    .Techpage .Intro p {
+        font-size: 0.95rem;
+    }
 }

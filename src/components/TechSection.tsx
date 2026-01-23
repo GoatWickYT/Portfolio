@@ -10,9 +10,9 @@ const TechSection: React.FC = () => {
         <section className="TechSection">
             <section className="Content">
                 <section className="Tech">
-                    <h1>{t('tech-title')}</h1>
+                    <h1>{t('main-page-tech-title')}</h1>
                     <section>
-                        <p>{t('tech-description')}</p>
+                        <p>{t('main-page-tech-description')}</p>
                     </section>
                     <div className="Techs">
                         <img src="/Typescript.png" alt="" />
@@ -24,7 +24,7 @@ const TechSection: React.FC = () => {
                         <img src="/Phaser.png" alt="" />
                         <img src="/UE.png" alt="" />
                         <img src="/Unity.png" alt="" />
-                        <img src="/React.svg" alt="" />
+                        <img src="/React.png" alt="" />
                         <img src="/Vite.png" alt="" />
 
                         <img src="/MongoDB.png" alt="" />
@@ -33,7 +33,7 @@ const TechSection: React.FC = () => {
                         <img src="/Docker.webp" alt="" />
                         <img src="/Git.png" alt="" />
                     </div>
-                    <button onClick={() => navigate('/techs')}>{t('tech-more')}</button>
+                    <button onClick={() => navigate('/techs')}>{t('main-page-tech-more')}</button>
                 </section>
             </section>
         </section>

@@ -10,12 +10,12 @@ const HeroSection: React.FC = () => {
         <section className="HeroSection">
             <section className="Content">
                 <section className="Info">
-                    <h1>{t('hero-intro')}</h1>
-                    <p>{t('hero-sub1')}</p>
-                    <p>{t('hero-sub2')}</p>
-                    <button onClick={() => navigate('/about')}>{t('hero-more')}</button>
+                    <h1>{t('main-hero-intro')}</h1>
+                    <p>{t('main-hero-sub1')}</p>
+                    <p>{t('main-hero-sub2')}</p>
+                    <button onClick={() => navigate('/about')}>{t('main-hero-more')}</button>
                 </section>
-                <img src="/profile.jpg" alt={t('hero-image')} title={t('hero-image')} />
+                <img src="/profile.jpg" alt={t('main-hero-image')} title={t('main-hero-image')} />
             </section>
         </section>
     );

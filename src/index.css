@@ -42,11 +42,6 @@
     transition: all ease-in-out 150ms;
 }
 
-img:hover {
-    transform: scale(1.05) rotateX(10deg);
-    box-shadow: 0 0 20px var(--accent);
-}
-
 button {
     border: 0;
     max-width: 400px;
