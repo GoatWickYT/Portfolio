@@ -22,7 +22,7 @@
 
     "main-page-tech-title": "Technologies",
     "main-page-tech-description": "Here are some of the technologies and languages I have experience with:",
-    "main-page-tech-more": "More information about the technologies",
+    "main-page-tech-more": "More about the technologies",
 
     "footer-main": "Main Page",
     "footer-about": "About Me",
@@ -66,5 +66,19 @@
     "page-tech-project-school-js": "JavaScript School Projects",
     "page-tech-project-school-cs": "C# School Projects",
     "page-tech-project-school-web": "Web Development School Projects",
-    "page-tech-project-unity": "Unity Projects"
+    "page-tech-project-unity": "Unity Projects",
+
+    "page-project-card-exam": "Final Exam Project",
+    "page-project-card-realm": "REALM",
+    "page-project-card-agentq": "Agent Q",
+    "page-project-card-dgd": "Deal Gone Dark",
+    "page-project-card-school-js": "School JavaScript",
+    "page-project-card-school-cs": "School C#",
+
+    "page-project-card-description-exam": "A Project we made for the final exam of our education in SZSZC Vasvári Pál Technical School's IT specialist course.",
+    "page-project-card-description-realm": "REALM is my solo project that's currently in active development. It's a TTRPG (tabletop role-playing game) inspired by Dungeons & Dragons, built with TypeScript, Node.js, and Phaser.js.",
+    "page-project-card-description-agentq": "Agent Q was my first ever gamified web application with basic quiz taking and making capabilities, built with TypeScript, React, and Node.js.",
+    "page-project-card-description-dgd": "Deal Gone Dark is a 2D stealth action game where players take on the role of a robber infiltrating a casino. Developed using TypeScript and Phaser.js with Colyseus as the server.",
+    "page-project-card-description-school-js": "School JavaScript projects were given to me during my studies at SZSZC Vasvári Pál Technical School's IT specialist course.",
+    "page-project-card-description-school-cs": "School C# projects were given to me during my studies at SZSZC Vasvári Pál Technical School's IT specialist course."
 }

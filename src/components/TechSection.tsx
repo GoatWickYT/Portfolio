@@ -15,23 +15,23 @@ const TechSection: React.FC = () => {
                         <p>{t('main-page-tech-description')}</p>
                     </section>
                     <div className="Techs">
-                        <img src="/Typescript.png" alt="" />
-                        <img src="/Javascript.png" alt="" />
-                        <img src="/HTML.png" alt="" />
-                        <img src="/CSS.png" alt="" />
-                        <img src="/Csharp.png" alt="" />
+                        <img src="/Typescript.png" alt="Typescript icon" />
+                        <img src="/Javascript.png" alt="JavaScrip icon" />
+                        <img src="/HTML.png" alt="HTML icon" />
+                        <img src="/CSS.png" alt="CSS icon" />
+                        <img src="/Csharp.png" alt="Csharp icon" />
 
-                        <img src="/Phaser.png" alt="" />
-                        <img src="/UE.png" alt="" />
-                        <img src="/Unity.png" alt="" />
-                        <img src="/React.png" alt="" />
-                        <img src="/Vite.png" alt="" />
+                        <img src="/Phaser.png" alt="Phaser icon" />
+                        <img src="/UE.png" alt="Unreal Engine icon" />
+                        <img src="/Unity.png" alt="Unity icon" />
+                        <img src="/React.png" alt="React icon" />
+                        <img src="/Vite.png" alt="Vite icon" />
 
-                        <img src="/MongoDB.png" alt="" />
-                        <img src="/MySql.svg" alt="" />
-                        <img src="/Node.png" alt="" />
-                        <img src="/Docker.webp" alt="" />
-                        <img src="/Git.png" alt="" />
+                        <img src="/MongoDB.png" alt="MongoDB icon" />
+                        <img src="/MySql.svg" alt="MySQL icon" />
+                        <img src="/Node.png" alt="Node.js icon icon" />
+                        <img src="/Docker.webp" alt="Docker icon" />
+                        <img src="/Git.png" alt="Git icon" />
                     </div>
                     <button onClick={() => navigate('/techs')}>{t('main-page-tech-more')}</button>
                 </section>

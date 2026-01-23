@@ -1,2 +1,92 @@
 .Projectpage {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.Projectpage .List {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.ProjectCard.active .Card {
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 20px var(--accent);
+}
+
+.Projectpage .Spotlight {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Projectpage .Image {
+    border: 2px solid var(--primary);
+    height: 540px;
+    width: 960px;
+    border-radius: 10px;
+}
+
+.Projectpage .Image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Projectpage .ImageList li {
+    list-style-type: none;
+}
+
+.Projectpage .ImageList li img.selected {
+    border: 2px solid var(--primary);
+}
+
+.Projectpage .ImageList li img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px var(--accent);
+    transform: scale(1.1);
+}
+.Projectpage .ImageList li img {
+    border: 1px solid var(--text);
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+@media (max-width: 1000px) {
+    .Projectpage .Spotlight {
+        flex-direction: column;
+    }
+
+    .Projectpage .Image {
+        width: 90%;
+        height: auto;
+    }
+
+    .Projectpage .ImageList {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .Projectpage .ImageList li img {
+        width: 160px;
+        height: 90px;
+    }
 }

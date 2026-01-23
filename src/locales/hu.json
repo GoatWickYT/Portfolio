@@ -63,8 +63,22 @@
     "page-tech-project-realm": "REALM",
     "page-tech-project-deal-gone-dark": "Deal Gone Dark",
     "page-tech-project-agent-q": "K Ügynök",
-    "page-tech-project-school-js": "JavaScript Iskola Projektek",
-    "page-tech-project-school-cs": "C# Iskola Projektek",
-    "page-tech-project-school-web": "Webfejlesztés Iskola Projektek",
-    "page-tech-project-unity": "Unity Projektek"
+    "page-tech-project-school-js": "JavaScript Iskolai Projektek",
+    "page-tech-project-school-cs": "C# Iskolai Projektek",
+    "page-tech-project-school-web": "Webfejlesztés Iskolai Projektek",
+    "page-tech-project-unity": "Unity Projektek",
+
+    "page-project-card-exam": "Szóbeli Vizsga Projektje",
+    "page-project-card-realm": "REALM",
+    "page-project-card-agentq": "K Ügynök",
+    "page-project-card-dgd": "Deal Gone Dark",
+    "page-project-card-school-js": "Iskolai JavaScript",
+    "page-project-card-school-cs": "Iskolai C#",
+
+    "page-project-card-description-exam": "Egy projekt, amelyet a SZSZC Vasvári Pál Technikum IT szakmai képzésének végzéseként készítettünk.",
+    "page-project-card-description-realm": "A REALM az én egyedi projektjem, amely jelenleg aktív fejlesztés alatt áll. Ez egy TTRPG (asztali szerepjáték), amelyet a Dungeons & Dragons ihletett, TypeScript, Node.js és Phaser.js segítségével fejlesztve.",
+    "page-project-card-description-agentq": "Az Agent Q volt az első gamifikált webalkalmazásom alapvető kvíz készítési és játszási funkcionalitással, TypeScript, React és Node.js segítségével fejlesztve.",
+    "page-project-card-description-dgd": "A Deal Gone Dark egy 2D lopakodós akciójáték, ahol a játékosok egy kaszinót betörő rabló szerepét veszik fel. TypeScript és Phaser.js segítségével fejlesztve, a szerveroldalt a Colyseus kezeli.",
+    "page-project-card-description-school-js": "Az iskolai JavaScript projektek a SZSZC Vasvári Pál Technikum IT szakmai képzése során kapott feladatok voltak.",
+    "page-project-card-description-school-cs": "Az iskolai C# projektek a SZSZC Vasvári Pál Technikum IT szakmai képzése során kapott feladatok voltak."
 }

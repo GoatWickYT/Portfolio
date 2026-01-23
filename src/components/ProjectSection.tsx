@@ -24,11 +24,11 @@ const ProjectSection: React.FC = () => {
                                 ))}
                         </p>
                     </section>
-                    <button onClick={() => navigate('/projects')}>
+                    <button onClick={() => navigate('/projects', { state: { openUp: 'realm' } })}>
                         {t('main-project-more-best')}
                     </button>
                 </section>
-                <img src="/REALM.icon.png" alt="" />
+                <img src="/REALM.png" alt="REALM icon" />
             </section>
 
             <section className="Content">
@@ -47,11 +47,13 @@ const ProjectSection: React.FC = () => {
                                         </span>
                                     ))}
                             </p>
-                            <button onClick={() => navigate('/projects')}>
+                            <button
+                                onClick={() => navigate('/projects', { state: { openUp: 'dgd' } })}
+                            >
                                 {t('main-project-more-deal-gone-dark')}
                             </button>
                         </section>
-                        <img src="/DGD.icon.png" alt="" />
+                        <img src="/DGD.png" alt="Deal Gone Dark icon" />
                     </div>
                     <div>
                         <section>
@@ -66,11 +68,15 @@ const ProjectSection: React.FC = () => {
                                         </span>
                                     ))}
                             </p>
-                            <button onClick={() => navigate('/projects')}>
+                            <button
+                                onClick={() =>
+                                    navigate('/projects', { state: { openUp: 'agentq' } })
+                                }
+                            >
                                 {t('main-project-more-agent-q')}
                             </button>
                         </section>
-                        <img src="/AgentQ.icon.svg" alt="" />
+                        <img src="/AgentQ.svg" alt="Agent Q icon" />
                     </div>
                 </section>
             </section>

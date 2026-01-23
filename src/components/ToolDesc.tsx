@@ -23,7 +23,7 @@ const ToolDesc: React.FC<ToolDescProps> = (props) => {
             <ul className="ToolList">
                 {tools.map((tool) => (
                     <li key={tool.name} className="ToolItem">
-                        <img src={`/${tool.image}`} alt="" />
+                        <img src={`/${tool.image}`} alt={tool.name} />
                         <div>
                             <span className="ToolName">{tool.name}</span>
                             {t(`page-tech-${tool.desc}`)}
