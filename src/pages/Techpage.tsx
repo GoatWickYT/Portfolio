@@ -13,22 +13,32 @@ const Techpage: React.FC = () => {
             <ToolDesc
                 title="Languages"
                 tools={[
-                    { image: 'Javascript.png', name: 'JavaScript (ES6+)', desc: 'javascript-desc' },
                     {
-                        name: 'TypeScript',
+                        image: 'Javascript.png',
+                        name: 'JavaScript - (2021)',
+                        desc: 'javascript-desc',
+                        projects: ['school-js', 'school-web'],
+                    },
+                    {
+                        name: 'TypeScript - (2025)',
                         image: 'Typescript.png',
                         desc: 'typescript-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
-                    { image: 'Csharp.png', name: 'C#', desc: 'csharp-desc' },
                     {
-                        name: 'HTML',
+                        image: 'Csharp.png',
+                        name: 'C# - (2019, 2022)',
+                        desc: 'csharp-desc',
+                        projects: ['school-cs', 'unity'],
+                    },
+                    {
+                        name: 'HTML - (2021)',
                         image: 'HTML.png',
                         desc: 'html-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
                     {
-                        name: 'CSS',
+                        name: 'CSS - (2021)',
                         image: 'CSS.png',
                         desc: 'css-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
@@ -38,11 +48,11 @@ const Techpage: React.FC = () => {
             <ToolDesc
                 title="Game Engines"
                 tools={[
-                    { image: 'Unity.png', name: 'Unity', desc: 'unity-desc' },
-                    { image: 'UE.png', name: 'Unreal Engine', desc: 'unreal-engine-desc' },
+                    { image: 'Unity.png', name: 'Unity - (2019)', desc: 'unity-desc' },
+                    { image: 'UE.png', name: 'Unreal Engine - (2019)', desc: 'unreal-engine-desc' },
                     {
                         image: 'Phaser.png',
-                        name: 'Phaser',
+                        name: 'Phaser - (2025)',
                         desc: 'phaser-desc',
                         projects: ['deal-gone-dark'],
                     },
@@ -53,25 +63,25 @@ const Techpage: React.FC = () => {
                 tools={[
                     {
                         image: 'React.png',
-                        name: 'React',
+                        name: 'React - (2025)',
                         desc: 'react-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
                     {
                         image: 'Node.png',
-                        name: 'Node.js',
+                        name: 'Node.js - (2022)',
                         desc: 'node-js-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
                     {
                         image: 'Express.webp',
-                        name: 'Express.js',
+                        name: 'Express.js - (2023)',
                         desc: 'express-js-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
                     {
                         image: 'Vite.png',
-                        name: 'Vite',
+                        name: 'Vite - (2025)',
                         desc: 'vite-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
@@ -82,12 +92,13 @@ const Techpage: React.FC = () => {
                 tools={[
                     {
                         image: 'MySql.svg',
-                        name: 'MySQL',
+                        name: 'MySQL - (2023)',
                         desc: 'mysql-desc',
+                        projects: ['school-js', 'school-cs'],
                     },
                     {
                         image: 'MongoDB.png',
-                        name: 'MongoDB',
+                        name: 'MongoDB - (2025)',
                         desc: 'mongodb-desc',
                         projects: ['agent-q'],
                     },
@@ -98,12 +109,22 @@ const Techpage: React.FC = () => {
                 tools={[
                     {
                         image: 'Git.png',
-                        name: 'Git & GitHub',
+                        name: 'Git & GitHub - (2021)',
                         desc: 'git-github-desc',
                         projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q'],
                     },
-                    { image: 'VSCode.png', name: 'Visual Studio Code', desc: 'vscode-desc' },
-                    { image: 'Docker.webp', name: 'Docker', desc: 'docker-desc' },
+                    {
+                        image: 'VSCode.png',
+                        name: 'Visual Studio Code - (2019)',
+                        desc: 'vscode-desc',
+                        projects: ['portfolio', 'realm', 'deal-gone-dark', 'agent-q', 'school-js'],
+                    },
+                    {
+                        image: 'Docker.webp',
+                        name: 'Docker - (2025)',
+                        desc: 'docker-desc',
+                        projects: ['school-js'],
+                    },
                 ]}
             />
         </main>

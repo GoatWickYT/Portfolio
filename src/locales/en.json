@@ -62,5 +62,9 @@
     "page-tech-project-portfolio": "Personal Portfolio Website",
     "page-tech-project-realm": "REALM",
     "page-tech-project-deal-gone-dark": "Deal Gone Dark",
-    "page-tech-project-agent-q": "AgentQ"
+    "page-tech-project-agent-q": "AgentQ",
+    "page-tech-project-school-js": "JavaScript School Projects",
+    "page-tech-project-school-cs": "C# School Projects",
+    "page-tech-project-school-web": "Web Development School Projects",
+    "page-tech-project-unity": "Unity Projects"
 }
