@@ -80,5 +80,32 @@
     "page-project-card-description-agentq": "Az Agent Q volt az első gamifikált webalkalmazásom alapvető kvíz készítési és játszási funkcionalitással, TypeScript, React és Node.js segítségével fejlesztve.",
     "page-project-card-description-dgd": "A Deal Gone Dark egy 2D lopakodós akciójáték, ahol a játékosok egy kaszinót betörő rabló szerepét veszik fel. TypeScript és Phaser.js segítségével fejlesztve, a szerveroldalt a Colyseus kezeli.",
     "page-project-card-description-school-js": "Az iskolai JavaScript projektek a SZSZC Vasvári Pál Technikum IT szakmai képzése során kapott feladatok voltak.",
-    "page-project-card-description-school-cs": "Az iskolai C# projektek a SZSZC Vasvári Pál Technikum IT szakmai képzése során kapott feladatok voltak."
+    "page-project-card-description-school-cs": "Az iskolai C# projektek a SZSZC Vasvári Pál Technikum IT szakmai képzése során kapott feladatok voltak.",
+
+    "time-dropdown-2026": "Vizsgamunka és ez a weboldal",
+    "time-dropdown-content-2026": "Oktatásunk utolsó évében a portfólió weboldalam és a vizsgamunka állt a középpontban. Nagyon sokat dolgoztunk rajta - nem csak egy akadály volt, amit át kellett lépni, hanem egy kapu a programozói világba. Nem csak elvégezni akartuk a feladatot, hanem a lehető legjobbra megcsinálni, és reménykedünk benne, hogy sikerül majd eladni a Szegedi Vadasparknak.",
+
+    "time-dropdown-2025": "Játékok Phaser.js-ben és HTML-ben",
+    "time-dropdown-content-2025": "Ebben az évben kerültem ki az iskola duális helyszínére, ahol elkezdtünk dolgozni saját, éles, ténylegesen hasznos és valós projekteken. Emellett saját projekteken is tudtam dolgozni. Ezek közé tartoztak a Phaser.js-es játékok is. A korábbi UE4-es tudásomat felhasználva könnyedén és élvezetesen tudtam ezeket megvalósítani.",
+
+    "time-dropdown-2024": "C# OOP és asztali fejlesztés",
+    "time-dropdown-content-2024": "A legélesebb váltás a C#-ra való áttérés volt. Miután évekig könnyű, script jellegű nyelveket használtunk, fejest ugrani egy nagy, ipari nyelvbe szokatlan volt. Sok év VS Code használat után a Visual Studio elsőre rémisztőnek tűnt, de miután megszoktuk, asztali alkalmazásokat fejlesztettünk mögöttes adatbázissal.",
+
+    "time-dropdown-2023": "JavaScript és webfejlesztés",
+    "time-dropdown-content-2023": "Miután stabil alapot kaptunk webalkalmazások készítéséhez, elkezdtünk a JavaScript-tel mint önálló nyelvvel foglalkozni. Készítettünk egyszerű Node alkalmazásokat, és ahogy haladt az év, egyre több és nagyobb rendszer kialakításában is részt vettünk. Kisebb API-khoz írtunk frontendet, ami tökéletes volt a két réteg összehangolásának megértéséhez.",
+
+    "time-dropdown-2022": "HTML és CSS statikus oldalak",
+    "time-dropdown-content-2022": "Körülbelül 2022-ben kezdtünk el ténylegesen kódolni az iskolában. Ekkor még csak HTML és CSS segítségével készítettünk kisebb weboldalakat, ahogy minden frontend fejlesztő kezdi. Voltak komolyabb és kreatívabb oldalak is, de közben végig arra fókuszáltunk, hogy minél több dolgot kipróbáljunk.",
+
+    "time-dropdown-2021": "Alapszintű Python és CMD kód",
+    "time-dropdown-content-2021": "Miután „megtanultam” Pythonozni - vagyis legalábbis azt hittem - nekikezdtem az addigi legnagyobb projektemnek: egy teljes körű AI asszisztens elkészítésének, teljesen Pythonra alapozva. Elég messzire jutottam: szöveges és konzolos bemenet, parancsérzékelés, Google-keresések. Viszont közbejöttek dolgok, és végül félbe kellett hagynom a projektet.",
+
+    "time-dropdown-2020": "Python botok és Scratch",
+    "time-dropdown-content-2020": "Részt vettem egy Scratch kurzuson, amit a Szegedi EPAM szervezett. Megtanították a Scratch működését és használatát, és több játékot is készítettünk. Néhány hónappal később jelentkeztem a Python kurzusukra is, ahol mélyebb oktatást kaptunk a nyelvről és annak használatáról.",
+
+    "time-dropdown-2019": "UE4 és Python kísérletek",
+    "time-dropdown-content-2019": "Közel egy év Unreal Engine használat után már elég gyorsan tudtam felépíteni kisebb demókat animációkkal és karakterekkel, amelyeket letöltött modellekkel egészítettem ki. Emellett az első kódjaimat is ekkor írtam Pythonban, amit nemcsak egyszerű volt megtanulni, de kisebb ötleteket megvalósítani is könnyű volt benne. Az első programjaim között volt a kő-papír-olló, szövegfelolvasó és beszédfelismerés.",
+
+    "time-dropdown-2018": "UE4 és Unity kísérletek",
+    "time-dropdown-content-2018": "Ekkor kezdtem az Unreal Engine és Unity kalandomat. Bár elég hamar abbahagytam a Unity használatát, az Unreal Engine Blueprint rendszerének köszönhetően messzire jutottam a játékrendszerek megértésében és készítésében. Kipróbáltam magam belső nézetes, külső nézetes és autóversenyzős játékokban is, de a modellezési készségeim hiánya miatt egyiket sem sikerült teljesen befejeznem."
 }

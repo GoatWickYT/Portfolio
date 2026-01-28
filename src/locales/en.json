@@ -80,5 +80,32 @@
     "page-project-card-description-agentq": "Agent Q was my first ever gamified web application with basic quiz taking and making capabilities, built with TypeScript, React, and Node.js.",
     "page-project-card-description-dgd": "Deal Gone Dark is a 2D stealth action game where players take on the role of a robber infiltrating a casino. Developed using TypeScript and Phaser.js with Colyseus as the server.",
     "page-project-card-description-school-js": "School JavaScript projects were given to me during my studies at SZSZC Vasvári Pál Technical School's IT specialist course.",
-    "page-project-card-description-school-cs": "School C# projects were given to me during my studies at SZSZC Vasvári Pál Technical School's IT specialist course."
+    "page-project-card-description-school-cs": "School C# projects were given to me during my studies at SZSZC Vasvári Pál Technical School's IT specialist course.",
+
+    "time-dropdown-2026": "Exam Project and This Website",
+    "time-dropdown-content-2026": "The final year of my education was spent working on our final exam project and this portfolio website. We put a huge amount of effort into the end-of-year exam — it wasn't just an obstacle, but a real gateway into professional coding. We made sure to plan carefully and build it as well as we could. We spent hours designing, coding, and refining it, and we're even hoping to sell it to the Szeged Zoo.",
+
+    "time-dropdown-2025": "Games with Phaser.js and Web Projects",
+    "time-dropdown-content-2025": "This was the year we moved into a more independent workspace provided by our school. We started building projects that were more realistic and actually useful. Alongside school work, I also began focusing more on my own personal projects. I created games using Phaser.js, and with my existing Unreal Engine knowledge, I had a great time turning ideas into real, playable experiences.",
+
+    "time-dropdown-2024": "C# OOP and Desktop Development",
+    "time-dropdown-content-2024": "One of the biggest turning points was switching to C# — no pun intended. After working with simpler scripting languages, we dove head-first into a large, strongly-typed language. After years of using VS Code, moving to Visual Studio felt intimidating at first, but once we got comfortable, we built several desktop applications with database integration.",
+
+    "time-dropdown-2023": "JavaScript and Web Development",
+    "time-dropdown-content-2023": "After building a solid foundation in web development, we started using JavaScript as a true programming language rather than just something inside HTML. We created basic Node.js apps, and as the year progressed, we developed backend systems for our own frontends. We built smaller APIs that were perfect for understanding how different layers of an application work together.",
+
+    "time-dropdown-2022": "HTML and CSS Static Pages",
+    "time-dropdown-content-2022": "Around 2022, we started learning coding at school with our first HTML and CSS websites. Nothing too fancy — just the basics, like every frontend developer starts. Over time, we created more serious and creative websites while experimenting as much as possible.",
+
+    "time-dropdown-2021": "Basic Python and CMDs",
+    "time-dropdown-content-2021": "After what I thought was 'learning' Python, I started my most ambitious project at the time: a fully Python-powered AI assistant. I implemented speech recognition, commands, console automation, and even Google searches. It was close to completion, but life got in the way and I unfortunately had to abandon the project.",
+
+    "time-dropdown-2020": "Scratch and Python Courses",
+    "time-dropdown-content-2020": "I attended a Scratch course hosted by EPAM in Szeged, where we learned the fundamentals and created several small games. A few months later, I joined a Python course they also hosted, where we learned how to use the language in a more in-depth and practical way.",
+
+    "time-dropdown-2019": "UE4 and Python Experiments",
+    "time-dropdown-content-2019": "After about a year of using Unreal Engine, I became comfortable setting up basic gameplay systems and animations. I worked with downloaded models and integrated them into projects. Around this time, I also got into coding with Python. It was easy to pick up and fun to experiment with. My early projects included Rock-Paper-Scissors, text-to-speech tools, and speech recognition experiments.",
+
+    "time-dropdown-2018": "UE4 and Unity Experiments",
+    "time-dropdown-content-2018": "I started experimenting with Unreal Engine and Unity back in 2018. I left Unity fairly quickly, but Unreal Engine — especially its Blueprint system — helped me understand how game systems work. I experimented with third-person, first-person, and driving game concepts. None of these projects were finished, mainly because I lacked experience in 3D modelling at the time."
 }
