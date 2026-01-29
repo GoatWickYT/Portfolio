@@ -31,7 +31,7 @@ const ThemeSwitch: React.FC = () => {
     };
 
     return (
-        <main
+        <button
             className="ThemeSwitch Switch"
             onClick={toggleTheme}
             aria-label={t('theme-title')}
@@ -39,7 +39,7 @@ const ThemeSwitch: React.FC = () => {
             style={{ bottom: '100px' }}
         >
             {theme === 'light' ? <SunIcon /> : <MoonIcon />}
-        </main>
+        </button>
     );
 };
 

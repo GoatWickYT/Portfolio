@@ -16,7 +16,7 @@ const LanguageSwitch: React.FC = () => {
     };
 
     return (
-        <main
+        <button
             className="LanguageSwitch Switch"
             onClick={() => toggleLanguage()}
             aria-label={t('lang-title')}
@@ -24,7 +24,7 @@ const LanguageSwitch: React.FC = () => {
             style={{ bottom: '20px' }}
         >
             {i18n.language !== 'en' ? 'HU' : 'EN'}
-        </main>
+        </button>
     );
 };
 

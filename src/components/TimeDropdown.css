@@ -9,8 +9,11 @@
     background-color: var(--bg-alt);
 }
 .TimeDropdown .Title {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     background-color: var(--bg-alt);
+    border-bottom: 2px solid var(--text);
     color: var(--text);
     padding: 20px;
     font-size: 2rem;
@@ -20,9 +23,10 @@
 .TimeDropdown .Title.Opened {
     background-color: var(--bg-btn);
     color: var(--primary);
-    border-bottom: 2px solid var(--text);
 }
-
+.TimeDropdown .Title.Opened svg {
+    transform: rotateX(180deg);
+}
 .TimeDropdown .Title:hover {
     background-color: var(--bg-btn);
     transform: scale(1.01);
@@ -33,6 +37,7 @@
 .TimeDropdown .Content {
     display: grid;
     grid-template-rows: 0fr;
+    padding: 10px;
     transition:
         grid-template-rows 300ms ease,
         opacity 200ms ease;
