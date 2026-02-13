@@ -7,13 +7,11 @@ import Aboutpage from '../pages/Aboutpage';
 import { ThemeProvider } from '../theme/ThemeContext';
 import LanguageSwitch from '../components/LanguageSwitch';
 import ThemeSwitch from '../components/ThemeSwitch';
-import { AnimatePresence } from 'framer-motion';
 
 const SiteRouter: React.FC = () => {
     return (
         <ThemeProvider>
             <BrowserRouter>
-                <AnimatePresence mode="wait">
                     <Routes location={location} key={location.pathname}>
                         <Route path="/" element={<Mainpage />} />
                         <Route path="/techs" element={<Techpage />} />
@@ -21,7 +19,6 @@ const SiteRouter: React.FC = () => {
                         <Route path="/about" element={<Aboutpage />} />
                         <Route path="*" element={<Mainpage />} />
                     </Routes>
-                </AnimatePresence>
                 <Footer />
                 <LanguageSwitch />
                 <ThemeSwitch />

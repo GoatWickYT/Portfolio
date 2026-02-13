@@ -30,9 +30,9 @@
 }
 
 .ProjectSection img {
-    width: 320px;
+    width: 220px;
     border: var(--accent) 2px solid;
-    border-radius: 110px;
+    border-radius: 80px;
     margin: 20px;
     padding: 20px;
 }
@@ -47,11 +47,11 @@
     border-left: gray 5px solid;
 }
 
-.ProjectSection .Other {
-    width: 90%;
+.ProjectSection .Info {
+    width: 80%;
 }
 
-.ProjectSection .Other div {
+.ProjectSection .Info div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -88,11 +88,11 @@
         border-radius: 30px;
     }
 
-    .ProjectSection .Other {
+    .ProjectSection .Info {
         width: 100%;
     }
 
-    .ProjectSection .Other div {
+    .ProjectSection .Info div {
         justify-content: center;
         flex-direction: column;
     }

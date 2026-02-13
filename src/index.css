@@ -9,32 +9,34 @@
     -moz-osx-font-smoothing: grayscale;
 
     --bg: #0f0f0f;
-    --bg-alt: #1f1f1f;
-    --bg-btn: #3e3e3e;
-    --bg-btn-hover: #4e4e4e;
+    --bg-alt: #011f0d;
+    /*--bg-alt: #1f1f1f;*/
+    --bg-btn: #1d4426;
+    --bg-btn-hover: #025f1e;
     --text: #f5f5f5;
     --text-muted: #a1a1aa;
 
     --primary: #35ce91;
     --primary-hover: #27c088;
 
-    --accent: #83b9fc;
-    --border: #2a2a33;
+    --accent: #83fcab;
+    --border: #006839;
 }
 
 [data-theme='light'] {
     --bg: #f0f0f0;
-    --bg-alt: #cfcfcf;
-    --bg-btn: #afafaf;
-    --bg-btn-hover: #cfcfcf;
+    --bg-alt: #e4ffff;
+    /*--bg-alt: #cfcfcf;*/
+    --bg-btn: #c2ffd2;
+    --bg-btn-hover: #9bffab;
     --text: #0f0f0f;
     --text-muted: #6b7280;
 
-    --primary: #2563eb;
-    --primary-hover: #1d4ed8;
+    --primary: #2fff74;
+    --primary-hover: #19c95c;
 
-    --accent: #0073ff;
-    --border: #e5e7eb;
+    --accent: #00ff15;
+    --border: #92ffc3;
 }
 
 * {
@@ -50,14 +52,14 @@ button {
     font-size: 1.2em;
     margin-top: 40px;
     border-radius: 50px;
-    background-color: var(--bg-btn);
+    background-color: var(--primary);
     color: var(--text);
 }
 
 button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    background-color: var(--bg-btn-hover);
+    background-color: var(--primary-hover);
     box-shadow: 0 0 20px var(--accent);
 }
 

@@ -1,9 +1,3 @@
 .Mainpage .HeroSection {
-    margin-top: 20%;
-}
-
-@media (max-width: 1024px) {
-    .Mainpage .HeroSection {
-        margin-top: 5%;
-    }
+    margin-top: 5%;
 }
